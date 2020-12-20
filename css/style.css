@@ -1,0 +1,349 @@
+/* ------------default css--------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif ;
+}
+
+.container{
+    width: 1200px;
+    padding:o 15px;
+    margin: 0 auto;
+}
+.col-25{
+    width: 25%;
+    float: left;
+}
+
+.col-50{
+    width: 50%;
+    float: left;
+}
+
+.col-33{
+    width: 33.33%;
+    float: left;
+}
+
+.col-75{
+    width: 75%;
+    float:left;
+}
+
+.section-padding-top{
+    padding-top: 100px;
+}
+
+.section-padding-bottom{
+    padding-bottom: 100px;
+}
+/* ---------google fonts--------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Rubik:wght@400;500&display=swap');
+
+/* ---------header css------------ */
+
+/* ---menu--- */
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 32px;
+}
+
+.menu ul li a{
+    font-size: 15px;
+    color: #ffffff;
+    font-family:'Rubik', sans-serif ;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 2s ease-in;
+}
+
+.menu ul li a:hover{
+    color: #ff5421;
+}
+
+.menu ul li a p{
+    display: none;
+    transition: -;
+}
+
+.menu ul li a:hover span{
+    display: none;
+}
+
+.menu ul li a:hover p{
+    display: inline-block;
+}
+
+.container .menu{
+    margin-top: 7px;
+    margin-left: 0px;
+}
+
+ul {
+    padding: 28px;
+}
+
+/* ---background image--- */
+
+header{
+    background-image:url(../images/1-61.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:857px ;
+}
+
+/* ---logo--- */
+
+.logo img{
+    height: 29px;
+    width: 191px;
+}
+
+img {
+    margin: 23px;
+}
+
+/* ---icon--- */
+
+.icon ul li{
+    list-style-type: none;
+    float: right;
+    display: inline;
+    padding-left: 37px;
+}
+
+.icon ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.icon ul li a:hover{
+    color: #ff5421;
+    transition: 1s ease-in-out;
+}
+
+/* ---text--- */
+
+.text{
+    text-align: center;
+}
+
+.text h1{
+    font-size: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform:capitalize;
+    line-height: 100px;
+    padding-top: 4px;
+}
+
+.text h5{
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #ff5421;
+    text-transform: uppercase;
+    line-height: 60px;
+    padding-top: 237px;
+    padding-bottom: -18px;
+}
+
+.text .btn{
+    margin-top: 45px;
+}
+
+.text .btn a{
+    padding: 18px 15px;
+    color: #fff;
+    background-color: #ff5421;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Rubik', sans-serif ;
+    font-weight: 600;
+    transition: 1.5s ;
+}
+
+.text .btn a:hover{
+    background-color:#040F25 ;
+}
+
+/* ---box css--- */
+
+.box img{
+    height: 72px;  
+    width: 78px;
+    margin:-15px; 
+}
+
+.box{
+    background-color: #171F32;
+    padding: 40px;
+    margin: 86px 31px 46px 38px;
+    display: inline-flex;
+    height: 116px;
+    width: 405px;
+}
+
+.box h6{
+    font-size: 22px;
+    font-family:'Nunito', sans-serif; 
+    font-weight: 700;
+    color: #fff;
+    margin: -13px 8px 16px 26px;
+}
+
+.box p{
+    font-size: 17px;
+    font-family:'Rubik', sans-serif ;
+    font-weight: 400;
+    color: #fff;
+    /* margin: -13px 8px 16px 26px;   */
+}
+
+/* -----------home css-------- */
+ 
+.top-heading h6{
+    text-align: center;
+    font-size: 16px;
+    color: #ff5421;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.top-heading h3{
+    text-align: center;
+    font-size: 36px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    margin:0px 388px; 
+}
+
+.ctg-box-1{
+        background-image: url(../images/cat_04.jpg);
+        height: 392px;
+        width: 392px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        padding-left: 25px;
+}
+
+.col-33{
+    width: 33.33%;
+    padding: 32px 0 32px 0;
+    float: left;
+}
+
+.ctg-box-text img {
+    margin: 294px 0px 0px 24px;
+    height: 50px;
+    width: 50px;
+}
+
+.ctg-box-text h5{
+    font-size: 22px;
+    font-family:'Nunito', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin:-48px 0px 0px 88px;
+}
+
+.ctg-box-text p {
+    margin: 1px 0px 2px 88px;
+    color: #fff;
+}
+
+.ctg-box-2{
+    background-image: url(../images/cat_01.jpg);
+    height: 392px;
+    width: 392px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
+.ctg-box-3{
+    background-image: url(../images/cat_5.jpg);
+    height: 392px;
+    width: 392px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
+.ctg-box-4{
+    background-image: url(../images/cat_6.jpg);
+    height: 392px;
+    width: 392px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
+.ctg-box-5{
+    background-image: url(../images/cat_02.jpg);
+    height: 392px;
+    width: 392px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
+.ctg-box-6{
+    background-image: url(../images/cat_03.jpg);
+    height: 392px;
+    width: 392px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
+.ctg-box-text h5:hover{
+    color: #ff5421;
+    transition: 1s;
+
+}
+
+.ctg-box-text p:hover{
+    color: #ff5421;
+    transition: 1s;
+
+}
+
+.ctg-box btn a{
+    color: #fff;
+    color: #ff5421;
+    
+}
+
+
+
